@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+main {
+  width: 80%;
+}
+
+body {
+  background-color: #a581c6;
+  font-size: 1.6rem;
+}
+
+footer img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.card {
+  margin: 1rem;
+  background-color: #8a79a8;
+  color: #2a1e35;
+  width: 40rem;
+  border-radius: 1rem;
+  padding-bottom: 2rem;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+}
