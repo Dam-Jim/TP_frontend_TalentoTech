@@ -1,0 +1,43 @@
+[
+    {
+        "id": "1",
+        "nombre": "Ryomen Sukuna",
+        "precio": "150000",
+        "img": "img/sukuna.jpg"
+    },
+
+    {
+        "id": "1",
+        "nombre": "Suguru geto",
+        "precio": "150000",
+        "img": "img/geto.jpg"
+    },
+
+    {
+        "id": "1",
+        "nombre": "Satoru Gojo",
+        "precio": "150000",
+        "img": "img/gojo.jpg"
+    },
+
+    {
+        "id": "1",
+        "nombre": "Zenin Maki",
+        "precio": "150000",
+        "img": "img/maki.jpg"
+    },
+
+    {
+        "id": "1",
+        "nombre": "Kento Nanami",
+        "precio": "150000",
+        "img": "img/nanami.jpg"
+    },
+
+    {
+        "id": "1",
+        "nombre": "Fushiguro Toji",
+        "precio": "150000",
+        "img": "img/toji.jpg"
+    }
+]

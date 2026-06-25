@@ -16,6 +16,10 @@
             <ul>
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./pages/contacto.html">Contacto</a></li>
+                <li><a href="./pages/carrito.html" class="carrito-icono">
+                        🛒 <span id="contador-carrito">0</span>
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -26,63 +30,15 @@
         
         <section>
             <h2 class="titulo-productos">Nuestros Productos</h2>
-            <div class="contenedor-tarjetas">
-
-                <article class="card text-dark">
-                    <img src="img/sukuna.jpg" alt="figura de accion Sukuna.">
-                    <h3>Ryomen Sukuna</h3>
-                    <p>Figura de Sukuna</p>
-                    <p>$150.000</p>
-                    <button class="btn bg-secondary text-dark">Agregar al carrito</button>
-                </article>
-
-                <article class="card">
-                    <img src="img/geto.jpg" alt="figura de accion gueto.">
-                    <h3>Suguru Geto</h3>
-                    <p>Figura de Geto</p>
-                    <p>$150.000</p>
-                    <button class="btn bg-secondary text-dark">Agregar al carrito</button>
-                </article>
-
-                <article class="card">
-                    <img src="img/gojo.jpg" alt="figura de accion Gojo.">
-                    <h3>Satoru Gojo</h3>
-                    <p>Figura de Gojo</p>
-                    <p>$150.000</p>
-                    <button class="btn bg-secondary text-dark">Agregar al carrito</button>
-                </article>
-
-                <article class="card">
-                    <img src="img/maki.jpg" alt="figura de accion Maki.">
-                    <h3>Zenin Maki</h3>
-                    <p>Figura de Maki</p>
-                    <p>$150.000</p>
-                    <button class="btn bg-secondary text-dark">Agregar al carrito</button>
-                </article>
-
-                <article class="card text-dark">
-                    <img src="img/nanami.jpg" alt="figura de accion Nanami.">
-                    <h3>Kento Nanami</h3>
-                    <p>Figura de Nanami</p>
-                    <p>$150.000</p>
-                    <button class="btn bg-secondary text-dark">Agregar al carrito</button>
-                </article>
-
-                <article class="card text-dark">
-                    <img src="img/toji.jpg" alt="figura de accion Toji.">
-                    <h3>Fushiguro Toji</h3>
-                    <p>Figura de Toji</p>
-                    <p>$150.000</p>
-                    <button class="btn bg-secondary text-dark">Agregar al carrito</button>
-                </article>
-
+            <div id="contenedor-tarjetas" class="contenedor-tarjetas">
+                <!-- productos no estáticos -->
             </div>
         </section>
     
     </main>
 
     <footer>
-        <p>Sitio oficial de JujutsuShop</p>
+        <p>Sitio realizado por Damian Jimenez para Talento Tech</p>
         <nav>
             <ul class="footer-list">
                 <li><img src="img/whatsapp.png" alt="logo whatsapp"></li>
@@ -91,5 +47,7 @@
         </nav>
     </footer>
     
+    <script src="./js/index.js" type="module"></script>
+
 </body>
 </html>

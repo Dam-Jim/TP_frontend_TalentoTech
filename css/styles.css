@@ -214,6 +214,17 @@ footer .footer-list{
     resize: vertical;
 }
 
+/* ----------------------- CARRITO ----------------------*/
+
+.mensaje-carrito-vacio {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+.acciones-carrito {
+  margin-top: 2rem;
+}
+
 /*-----------------------MEDIA QUERIES------------------*/
 
 @media (max-width: 600px){
